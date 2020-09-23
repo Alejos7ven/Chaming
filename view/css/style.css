@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(238, 238, 238);
+}
+.chat-panel{
+    min-height: 600px;
+    max-height: 700px;
+    background-color: rgb(255, 255, 255);
+}
+.userlist-panel{
+    background-color: rgb(148, 175, 226);
+    min-height: 600px;
+    max-height: 700px;
+    padding: 0;
+}
+.my-porfile, .receiver-porfile{
+    background-color: rgb(70, 105, 170);
+    font-size: 18px;
+    line-height: 18px;
+    min-height: 50px;
+    max-height: 100px;
+    padding: 3px 5px;
+    color: white;
+    width: 100%;
+}
+.receiver-porfile{
+    background-color: rgb(240, 248, 250);
+    color: black;
+}
+.my-porfile-pic{
+    max-width: 50px;
+    display: block;
+    position: relative;
+    float: left;
+    
+    margin-right: 3px;
+    border-radius: 50%;
+}
+.status-online{
+    color: greenyellow;
+    margin: 0;
+    padding: 0;
+}
+.status-offline{
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+.status-last{
+    color: rgb(128, 128, 128);
+}
+.user-chats,.messages{
+    height: auto;
+    min-height: calc(100% - 150px);
+    max-height: calc(100% - 150px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.messages::-webkit-scrollbar{
+    width: 15px;
+}
+.messages::-webkit-scrollbar-track{
+    background-color:rgba(0, 0, 0, 0.4);
+}
+.messages::-webkit-scrollbar-thumb{
+    background-color: black;
+    width: 10px; 
+}
+.contact,.messages{
+    list-style: none;
+    margin-top: 5px;
+    max-height: auto;
+}
+.contact li{
+    min-height: 70px;
+    max-height: 100px;
+    padding: 3px 5px;
+    cursor: pointer;
+    clear: both;
+}
+.user-active{
+    background-color: rgb(172, 193, 231);
+}
+.chat-content{
+    min-height: 600px;
+    max-height: 700px;
+    padding: 0;
+}
+.find-user,.input-messages{
+    min-height: 70px;
+    max-height: 100px;
+    padding: 0;
+    margin: 0;
+    padding-left: 3px;
+    padding-top: 20px;
+
+}
+.input-messages{
+    background-color: rgb(70, 105, 170);
+    padding-left: 7px;
+}
+.find-user-input,.write-messages{
+    width: 87%;
+    position: relative;
+    float: left;
+}
+.write-messages{
+    min-height: 40px;
+    max-height: 40px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.last-message{
+    background-color: rgb(199, 219, 255);
+    width: 60%;
+    margin-left: 20%;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 7px 5px;
+    color: rgba(32, 73, 155, 0.788);
+}
+#goback{
+    margin: 5px 5px;
+    position: relative;
+    float: left;
+}
+.message-list{
+    list-style: none;
+}
+.message-list li{
+    min-height: 60px;
+    width: 100%;
+    clear: both; 
+}
+.message-list img{
+    max-width: 6%; 
+}
+.receiver-message{
+    margin-left: 2%;
+} 
+.message-body-receiver{
+    background-color: springgreen;
+    margin-left: 10%;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.message-body-receiver, .message-body-sender{
+    display: block;
+    min-width: 50%;
+    max-width: 60%; 
+    padding: 7px 40px 7px 10px;
+    
+}
+.message-body-sender{
+    background-color: turquoise;
+    position: relative;
+    float: left;
+    max-width: 50%;
+    margin-left: 28%;
+    margin-right: 2%;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.form-login{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 3px 5px;
+    border-radius: 1.56%;
+
+}
+.btn-login{
+    text-align: center;
+}
+.color-black{
+    margin-top: 20px;
+    padding: 30px 20px;
+    min-height: 300px;
+    background-color: rgb(51, 51, 51);
+    color: rgb(240, 248, 250);
+}
+.section-footer ul{
+    list-style: none;
+}
+.botonera{
+    text-align: right;
+    max-height:70px;
+    background-color: azure;
+}
+.btn-logout{
+    display: inline-block;
+    padding: 10px 15px; 
+}
